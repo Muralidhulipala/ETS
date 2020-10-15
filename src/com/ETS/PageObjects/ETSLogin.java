@@ -41,7 +41,7 @@ public class ETSLogin {
 		case "Performance":
 			return driver.findElement(By.xpath("//*[contains(text(),'PERFORMANCE')]"));	
 		default:
-			System.out.println("Entered Objectname is not valid.Please check and enter again");
+			System.out.println("Entered Object name is not valid.Please check and enter again");
 			return null;
 		}
 		
